@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<!--    tools:context=".ui.profile.ProfileFragment">-->
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="250dp"-->
+<!--        android:background="@color/DeepSkyBlue"-->
+<!--        android:padding="20dp">-->
+
+<!--        <de.hdodenhof.circleimageview.CircleImageView-->
+<!--            android:id="@+id/profile_image"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:layout_marginTop="100dp"-->
+<!--            android:src="@drawable/user" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/user_name"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_toRightOf="@+id/profile_image"-->
+<!--            android:fontFamily="sans-serif-black"-->
+<!--            android:includeFontPadding="false"-->
+<!--            android:text="Your Name"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="26sp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/user_phoneNo"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/user_name"-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:layout_toEndOf="@+id/profile_image"-->
+<!--            android:includeFontPadding="false"-->
+<!--            android:text="Your Phone Number"-->
+<!--            android:textColor="@color/Wheat"-->
+<!--            android:textSize="16sp" />-->
+
+<!--    </RelativeLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="-100dp"-->
+<!--        android:padding="20dp">-->
+
+<!--        <com.google.android.material.card.MaterialCardView-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="125dp"-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:layout_weight="1"-->
+<!--            app:cardBackgroundColor="@color/NavajoWhite"-->
+<!--            app:cardElevation="10dp">-->
+
+<!--            <RelativeLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:padding="5dp">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="45dp"-->
+<!--                    android:layout_height="45dp"-->
+<!--                    android:layout_centerHorizontal="true"-->
+<!--                    android:src="@drawable/car" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/user_label"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_centerInParent="true"-->
+<!--                    android:includeFontPadding="false"-->
+<!--                    android:text="User"-->
+<!--                    android:textColor="@color/Blue"-->
+<!--                    android:textSize="30sp" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/user_desc"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@id/user_label"-->
+<!--                    android:layout_centerInParent="true"-->
+<!--                    android:includeFontPadding="false"-->
+<!--                    android:text="User Type"-->
+<!--                    android:textColor="@color/Gray"-->
+<!--                    android:textSize="20sp" />-->
+
+<!--            </RelativeLayout>-->
+
+<!--        </com.google.android.material.card.MaterialCardView>-->
+
+<!--        <com.google.android.material.card.MaterialCardView-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="125dp"-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:layout_weight="1"-->
+<!--            app:cardBackgroundColor="@color/NavajoWhite"-->
+<!--            app:cardElevation="10dp">-->
+
+<!--            <RelativeLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:padding="5dp">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="45dp"-->
+<!--                    android:layout_height="45dp"-->
+<!--                    android:layout_centerHorizontal="true"-->
+<!--                    android:src="@drawable/dollar" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/payment_label"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_centerInParent="true"-->
+<!--                    android:includeFontPadding="false"-->
+<!--                    android:text="$123"-->
+<!--                    android:textColor="@color/Blue"-->
+<!--                    android:textSize="30sp" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/payment_desc"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@id/payment_label"-->
+<!--                    android:layout_centerHorizontal="true"-->
+<!--                    android:includeFontPadding="false"-->
+<!--                    android:text="Balance"-->
+<!--                    android:textColor="@color/Gray"-->
+<!--                    android:textSize="20sp" />-->
+
+<!--            </RelativeLayout>-->
+
+<!--        </com.google.android.material.card.MaterialCardView>-->
+
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        android:padding="10dp">-->
+
+<!--&lt;!&ndash;        <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/user_email"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:drawableLeft="@drawable/ic_email"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:hint="Email"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:padding="10dp"/>&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/user_address"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:drawableLeft="@drawable/address"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:hint="Address"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:padding="10dp"/>&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/user_bio"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:drawableLeft="@drawable/person"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:hint="Bio"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:padding="10dp"/>&ndash;&gt;-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:id="@+id/editText_name"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:backgroundTint="@color/LightBlue"-->
+<!--            android:background="@drawable/input"-->
+<!--            android:hint="Full Name"-->
+<!--            android:paddingLeft="20dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.495"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/updateHeader"-->
+<!--            app:layout_constraintVertical_bias="0.111" />-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:id="@+id/editText_bio"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:backgroundTint="@color/LightBlue"-->
+<!--            android:background="@drawable/input"-->
+<!--            android:hint="Bio"-->
+<!--            android:paddingLeft="20dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.495"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/editText_address"-->
+<!--            app:layout_constraintVertical_bias="0.0" />-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:id="@+id/editText_email"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:backgroundTint="@color/LightBlue"-->
+<!--            android:background="@drawable/input"-->
+<!--            android:hint="Email Address"-->
+<!--            android:paddingLeft="20dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.495"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/editText_name"-->
+<!--            app:layout_constraintVertical_bias="0.0" />-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:id="@+id/editText_address"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:backgroundTint="@color/LightBlue"-->
+<!--            android:background="@drawable/input"-->
+<!--            android:hint="Address"-->
+<!--            android:paddingLeft="20dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.495"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/editText_phoneNumber"-->
+<!--            app:layout_constraintVertical_bias="0.0" />-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:id="@+id/editText_phoneNumber"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:backgroundTint="@color/LightBlue"-->
+<!--            android:background="@drawable/input"-->
+<!--            android:hint="Phone Number"-->
+<!--            android:paddingLeft="20dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.495"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/editText_email"-->
+<!--            app:layout_constraintVertical_bias="0.0" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btn_save"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_marginStart="8dp"-->
+<!--            android:layout_marginTop="18dp"-->
+<!--            android:layout_marginEnd="8dp"-->
+<!--            android:layout_marginBottom="8dp"-->
+<!--            android:backgroundTint="@color/purple_700"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:textSize="18dp"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:text="Save"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.482"-->
+<!--            app:layout_constraintRight_toRightOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintVertical_bias="0.95" />-->
+
+<!--    </LinearLayout>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/updateProfile"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:backgroundTint="@color/Blue"-->
+<!--        android:text="Update"-->
+<!--        android:textAllCaps="true"-->
+<!--        android:textColor="#FFFFFF" />-->
+</LinearLayout>
